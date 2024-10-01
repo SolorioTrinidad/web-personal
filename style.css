@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css@1.0.6/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oleo+Script:wght@400;700&display=swap');
+
+header {
+    background-color: #8CB6CE;
+}
+
+main {
+    background-color: #D8D8D8;
+}
+
+aside {
+    background-color: rgb(116, 163, 201);
+}
+
+footer {
+    background-color: rgb(45, 76, 94);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr ;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "prince prince lado"
+    "pie pie pie"    
+    ;
+}
+
+header {
+    grid-area: cabeza;
+}
+
+main {
+    grid-area: prince; 
+}
+
+aside {
+    grid-area: lado;
+}
+
+footer {
+    grid-area: pie;
+    color: aliceblue;
+}   
+
+.bng {
+    font-family: "League Spartan", system-ui;
+    font-style: normal;
+}
+
+.fathersday {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+.ropadebazar {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff2ec;
+}
+
+.contortionist {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.edu {
+    width: 15% ;
+    margin-left: 15%;
+}
+
+.brillo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.traitor {
+    width: 15% ;
+    margin-left: 20px;
+}
+
+.cookie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.lele {
+    margin-bottom: 20px;
+}
+
+.veronica {
+text-align: center;
+background-color: #e9e7e7;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+.lua {
+    width: 700px;
+}
+
+.pensandoenti {
+    display: flex;
+}
+
+.nobody {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.someone {
+    margin-left: 20px;
+    margin-right: 90px;
+}
+
+.mate {
+    width: 100%;
+    margin-top: 63%;
+}
+
+.arturo {
+    width: 20%;
+}
+
+.quesito {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nye {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lupe {
+    margin-bottom: 40px;
+}
+
+.lobo {
+    margin-left: 20px;
+}
+
+.pena {
+    margin-bottom: 20%;
+}
+
+.juan {
+    width: 5%;
+}
+
+.silk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
